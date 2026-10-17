@@ -32,20 +32,24 @@ Students must prepare the image data and develop a reproducible preprocessing pi
 
 Students must design and implement a complete deep learning image classification pipeline. Students are required to:
 
-- [ ] Select and justify a suitable deep learning architecture.
-- [ ] Use a custom CNN, transfer learning model, Vision Transformer, hybrid CNN--Transformer model, or another appropriate deep learning model.
-- [ ] Describe the model architecture and its main components.
-- [ ] Specify the input image size, output layer, activation function, and number of target classes.
-- [ ] Select and justify the loss function, optimiser, learning rate, batch size, and number of epochs.
-- [ ] Implement the complete training pipeline in Python.
-- [ ] Ensure that the pipeline can generate predictions for the Kaggle test set.
+- [x] Select and justify a suitable deep learning architecture.	
+- [x] Use a 
+	- [x] custom CNN, 
+	- [x] transfer learning model, 
+	- [] Vision Transformer, 
+	- [] hybrid CNN--Transformer model, or another appropriate deep learning model.	
+- [x] Describe the model architecture and its main components.
+- [x] Specify the input image size, output layer, activation function, and number of target classes.
+- [x] Select and justify the loss function, optimiser, learning rate, batch size, and number of epochs.
+- [x] Implement the complete training pipeline in Python.
+- [x] Ensure that the pipeline can generate predictions for the Kaggle test set.
 
 #### Task 4: Training Strategy and Overfitting/Underfitting Management
 
 Students must train their model and monitor its learning behaviour. Students are required to:
 
-- [ ] Train the selected model using the prepared training data.
-- [ ] Monitor training and validation accuracy and loss.
+- [x] Train the selected model using the prepared training data.
+- [x] Monitor training and validation accuracy and loss.
 - [ ] Identify signs of overfitting or underfitting.
 - [ ] Apply appropriate strategies to improve generalisation, such as data augmentation, dropout, weight decay, batch normalisation, early stopping, learning-rate scheduling, transfer learning, fine-tuning, or model adjustment.
 - [ ] Present and discuss learning curves for training and validation performance.
