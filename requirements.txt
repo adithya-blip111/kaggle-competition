@@ -6,3 +6,5 @@ scikit-elcs
 scipy
 jupyter
 ipykernel
+torch 
+torchvision
