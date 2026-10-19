@@ -16,3 +16,6 @@ pip install numpy pandas scikit-learn matplotlib jupyter scipy
 
 # Install packages
 pip install -r requirements.txt
+
+# Using CUDA
+pip install --force-reinstall torch torchvision --index-url https://download.pytorch.org/whl/cu126

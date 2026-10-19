@@ -50,10 +50,19 @@ Students must train their model and monitor its learning behaviour. Students are
 
 - [x] Train the selected model using the prepared training data.
 - [x] Monitor training and validation accuracy and loss.
-- [ ] Identify signs of overfitting or underfitting.
-- [ ] Apply appropriate strategies to improve generalisation, such as data augmentation, dropout, weight decay, batch normalisation, early stopping, learning-rate scheduling, transfer learning, fine-tuning, or model adjustment.
-- [ ] Present and discuss learning curves for training and validation performance.
-- [ ] Justify any changes made to the model or training strategy.  
+- [x] Identify signs of overfitting or underfitting.
+- [x] Apply appropriate strategies to improve generalisation, such as 
+	- [x] data augmentation, 
+	- [x] dropout, 
+	- [x] weight decay, 
+	- [x] batch normalisation, 
+	- [x] early stopping, 
+	- [x] learning-rate scheduling, 
+	- [x] transfer learning, 
+	- [x] fine-tuning, 
+	- [x] or model adjustment.
+- [x] Present and discuss learning curves for training and validation performance.
+- [ ] Justify any changes made to the model or training strategy.
     
 
 #### Task 5: Model Evaluation and Kaggle Submission
