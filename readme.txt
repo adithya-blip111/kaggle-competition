@@ -12,10 +12,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\.venv\Scripts\python.exe -m ipykernel install --user --name data_ai_project --display-name "Python (.venv)"
 
 # Install packages
-pip install numpy pandas scikit-learn matplotlib jupyter scipy
-
-# Install packages
-pip install -r requirements.txt
+pip install numpy pandas matplotlib scikit-learn scikit-elcs scipy jupyter ipykernel torch torchvision
 
 # Using CUDA
 pip install --force-reinstall torch torchvision --index-url https://download.pytorch.org/whl/cu126
